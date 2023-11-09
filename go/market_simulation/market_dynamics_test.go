@@ -8,7 +8,7 @@ import (
 
 func TestMarketSimulation(t *testing.T) {
 	t.Run(
-		"test that the parasite simulation runs",
+		"test that the market simulation runs",
 		func(t *testing.T) {
 			settings := simulator.NewLoadSettingsConfigFromYaml("market_dynamics_config.yaml")
 			iterations := make([]simulator.Iteration, 0)
